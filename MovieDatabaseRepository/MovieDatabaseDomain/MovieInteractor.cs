@@ -19,11 +19,27 @@ namespace MovieDatabaseDomain
         //}
         public bool AddNewItem(Movie itemToAdd)
         {
-            if (string.IsNullOrEmpty(itemToAdd.Title))
+            //TODO: check if runtime is empty as well
+            if (string.IsNullOrEmpty(itemToAdd.Title) || string.IsNullOrEmpty(itemToAdd.Genre))
             {
-                throw new ArgumentException("Name and Description must contain valid text.");
+                throw new ArgumentException("Please provide a valid name, genre, and runtime.");
             }
             return _repo.AddItem(itemToAdd);
         }
+        public List<Movie> GetMovieGenre(string userGenre)
+        {
+            return _repo.GetMovieGenre(userGenre);
+        }
+        public List<Movie> GetMovieTitle(string userTitle)
+        {
+            return _repo.GetMovieTitle(userTitle);
+        }
+
+        //public bool GetMovieTitleExists(string userTitle, out Movie movieReturn)
+        //{
+        //    Movie movie = _repo.GetMovieTitle(userTitle);
+        //    movieReturn = movie;
+        //    return movieReturn != null;
+        //}
     }
 }

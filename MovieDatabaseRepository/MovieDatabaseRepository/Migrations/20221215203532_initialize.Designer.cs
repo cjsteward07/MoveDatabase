@@ -11,8 +11,8 @@ using MovieDatabaseRepository;
 namespace MovieDatabaseRepository.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20221215074239_test")]
-    partial class test
+    [Migration("20221215203532_initialize")]
+    partial class initialize
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,12 +33,14 @@ namespace MovieDatabaseRepository.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Genre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Runtime")
                         .HasColumnType("real");
 
                     b.Property<string>("Title")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

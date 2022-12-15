@@ -165,3 +165,4 @@ C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseC
 C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseConsole\obj\Debug\net6.0\MovieDatabaseConsole.pdb
 C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseConsole\obj\Debug\net6.0\MovieDatabaseConsole.genruntimeconfig.cache
 C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseConsole\obj\Debug\net6.0\ref\MovieDatabaseConsole.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseConsole\bin\Debug\net6.0\appsettings.json

@@ -33,3 +33,4 @@ C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseD
 C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDomain\obj\Debug\net6.0\refint\MovieDatabaseDomain.dll
 C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDomain\obj\Debug\net6.0\MovieDatabaseDomain.pdb
 C:\Users\colin\Source\Repos\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDomain\obj\Debug\net6.0\ref\MovieDatabaseDomain.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDomain\bin\Debug\net6.0\appsettings.json

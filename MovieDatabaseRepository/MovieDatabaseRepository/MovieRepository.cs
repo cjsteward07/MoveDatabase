@@ -25,30 +25,38 @@ namespace MovieDatabaseRepository
             _optionsBuilder = new DbContextOptionsBuilder<ApplicationDBContext>();
             _optionsBuilder.UseSqlServer(_configuration.GetConnectionString("MovieDatabase"));
         }
-        //public List<Movie> GetAllMovies()
-        //{
-        //    using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
-        //    {
-        //        //return db.Movies.Include(x => x.Title).ToList();
-        //        return db.Movies.Include(x => x.Title).Include(x => x.Genre).ToList();
-        //    }
-        //}
+
         public bool AddItem(Movie itemToAdd)
         {
             using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
             {
                 //determine if item exists
-                //Movie existingItem = db.Movies.FirstOrDefault(x => x.Title.ToLower() == itemToAdd.Title.ToLower());
+                Movie existingItem = db.Movies.FirstOrDefault(x => x.Title.ToLower() == itemToAdd.Title.ToLower());
 
-                //if (existingItem == null)
-                //{
-                // doesn't exist, add it
+                if (existingItem == null)
+                {
+                    //doesn't exist, add it
                 db.Movies.Add(itemToAdd);
                 db.SaveChanges();
                 return true;
-                //}
+                }
 
-                //return false;
+                return false;
+            }
+        }
+        public List<Movie> GetMovieGenre(string userGenre)
+        {
+            using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
+            {
+                return db.Movies.Where(x => x.Genre == userGenre).ToList();
+            }
+        }
+
+        public List<Movie> GetMovieTitle(string userTitle)
+        {
+            using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
+            {
+                return db.Movies.Where(x => x.Title == userTitle).ToList();
             }
         }
     }

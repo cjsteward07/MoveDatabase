@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj": {}
+    "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj": {
+    "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj",
         "projectName": "MovieDatabaseDomain",
-        "projectPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj",
-        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\obj\\",
+        "projectPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\MovieDatabaseDomain.csproj",
+        "packagesPath": "C:\\Users\\Colin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj": {
-                "projectPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj"
+              "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj": {
+                "projectPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj"
               },
-              "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj": {
-                "projectPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj"
+              "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj": {
+                "projectPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj"
               }
             }
           }
@@ -67,24 +67,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj": {
+    "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj",
+        "projectUniqueName": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj",
         "projectName": "MovieDatabaseDTO",
-        "projectPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj",
-        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\obj\\",
+        "projectPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj",
+        "packagesPath": "C:\\Users\\Colin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -127,24 +127,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj": {
+    "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj",
         "projectName": "MovieDatabaseRepository",
-        "projectPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj",
-        "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\obj\\",
+        "projectPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\MovieDatabaseRepository.csproj",
+        "packagesPath": "C:\\Users\\Colin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,8 +160,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj": {
-                "projectPath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj"
+              "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj": {
+                "projectPath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj"
               }
             }
           }
@@ -225,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tsG/BnZa/o1nk+RGpQi/2F4xdFS+cMAPLBODsL5HRXHZWFGDqBLkqTQ3fYogNTuAWkWciFbMVpyrzTXNHlLGMw==",
+  "dgSpecHash": "lb9VoZ7mHUM4vnD0BRyHUPmYuXFcayxfeEcsV4foJmAmAH9VP7hptkP1/+Fu0u+2U2BstCq5piPxBZFF4HTu/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\colin\\Source\\Repos\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj",
+  "projectFilePath": "C:\\Users\\Colin\\Documents\\git\\MovieDatabase\\MovieDatabaseRepository\\MovieDatabaseDTO\\MovieDatabaseDTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

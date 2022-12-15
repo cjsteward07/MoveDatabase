@@ -25,31 +25,31 @@ namespace MovieDatabaseRepository
             _optionsBuilder = new DbContextOptionsBuilder<ApplicationDBContext>();
             _optionsBuilder.UseSqlServer(_configuration.GetConnectionString("MovieDatabase"));
         }
-        public List<Movie> GetAllMovies()
-        {
-            using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
-            {
-                //return db.Movies.Include(x => x.Title).ToList();
-                return db.Movies.Include(x => x.Title).Include(x => x.Genre).ToList();
-            }
-        }
-        //public bool AddItem(Movie itemToAdd)
+        //public List<Movie> GetAllMovies()
         //{
         //    using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
         //    {
-        //        //determine if item exists
-        //        //Movie existingItem = db.Movies.FirstOrDefault(x => x.Title.ToLower() == itemToAdd.Title.ToLower());
-
-        //        //if (existingItem == null)
-        //        //{
-        //            // doesn't exist, add it
-        //            db.Movies.Add(itemToAdd);
-        //            db.SaveChanges();
-        //            return true;
-        //        //}
-
-        //        //return false;
+        //        //return db.Movies.Include(x => x.Title).ToList();
+        //        return db.Movies.Include(x => x.Title).Include(x => x.Genre).ToList();
         //    }
         //}
+        public bool AddItem(Movie itemToAdd)
+        {
+            using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
+            {
+                //determine if item exists
+                //Movie existingItem = db.Movies.FirstOrDefault(x => x.Title.ToLower() == itemToAdd.Title.ToLower());
+
+                //if (existingItem == null)
+                //{
+                // doesn't exist, add it
+                db.Movies.Add(itemToAdd);
+                db.SaveChanges();
+                return true;
+                //}
+
+                //return false;
+            }
+        }
     }
 }

@@ -11,7 +11,7 @@ using MovieDatabaseRepository;
 namespace MovieDatabaseRepository.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20221214223756_test")]
+    [Migration("20221215074239_test")]
     partial class test
     {
         /// <inheritdoc />
@@ -33,14 +33,12 @@ namespace MovieDatabaseRepository.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Genre")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Runtime")
                         .HasColumnType("real");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

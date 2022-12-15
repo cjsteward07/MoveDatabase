@@ -10,62 +10,62 @@ MovieInteractor _movieInteractor = new MovieInteractor();
 
 
 
-//void LoadStartUpData()
-//{
-//    foreach (Movie item in BuildItemCollection())
-//    {
-//        if (_movieInteractor.AddNewItem(item) == true)
-//        {
-//            Console.WriteLine($"{item.Title} was added to the database.");
-//        }
-//        else
-//        {
-//            Console.WriteLine($"{item.Title} was NOT added to the database.");
-//        }
-//    }
-//}
+void LoadStartUpData()
+{
+    foreach (Movie item in BuildItemCollection())
+    {
+        if (_movieInteractor.AddNewItem(item) == true)
+        {
+            Console.WriteLine($"{item.Title} was added to the database.");
+        }
+        else
+        {
+            Console.WriteLine($"{item.Title} was NOT added to the database.");
+        }
+    }
+}
 
-//List<Movie> BuildItemCollection()
-//{
-//    List<Movie> initialItems = new List<Movie>();
-//    initialItems.Add(new Movie() { Title = "Common Arrow"});
-//    //initialItems.Add(new Movie() { Name = "Dull Sword", Description = "A very old sword" });
-//    //initialItems.Add(new Movie() { Name = "Ragged Tunic", Description = "It barely covers the important bits" });
-//    //initialItems.Add(new Movie() { Name = "Common Arrow", Description = "A cheap wood arrow" });
-//    //initialItems.Add(new Movie() { Name = "Dented Helm", Description = "What happened to the previous owner" });
-//    return initialItems;
-//}
+List<Movie> BuildItemCollection()
+{
+    List<Movie> initialItems = new List<Movie>();
+    initialItems.Add(new Movie() { Title = "Common Arrow", Genre = "GenreTest", Runtime = 19 });
+    //initialItems.Add(new Movie() { Name = "Dull Sword", Description = "A very old sword" });
+    //initialItems.Add(new Movie() { Name = "Ragged Tunic", Description = "It barely covers the important bits" });
+    //initialItems.Add(new Movie() { Name = "Common Arrow", Description = "A cheap wood arrow" });
+    //initialItems.Add(new Movie() { Name = "Dented Helm", Description = "What happened to the previous owner" });
+    return initialItems;
+}
 
-
+LoadStartUpData();
 Console.WriteLine("Hello");
 //LoadStartUpData();
 
-void DisplayAllItems()
-{
-    Console.WriteLine();
-    Console.WriteLine("The following items are in the database");
-    foreach (Movie item in _movieInteractor.GetAllMovies())
-    {
-        Console.WriteLine($" - {item.Title}");
-    }
+//void DisplayAllItems()
+//{
+//    Console.WriteLine();
+//    Console.WriteLine("The following items are in the database");
+//    foreach (Movie item in _movieInteractor.GetAllMovies())
+//    {
+//        Console.WriteLine($" - {item.Title}");
+//    }
 
-    //foreach (Character character in _dungeonCharacterInteractor.GetAllCharacters())
-    //{
-    //    //Ternary Statement -- single line if/then
-    //    // if then statement used to set a value
-    //    // variable = condition ? true value : false value
-    //    string characterClass = character.CharacterClass == null ? "No Class" : character.CharacterClass.Name;
-    //    string characterRace = character.CharacterRace == null ? "No Race" : character.CharacterRace.Name;
+//    //foreach (Character character in _dungeonCharacterInteractor.GetAllCharacters())
+//    //{
+//    //    //Ternary Statement -- single line if/then
+//    //    // if then statement used to set a value
+//    //    // variable = condition ? true value : false value
+//    //    string characterClass = character.CharacterClass == null ? "No Class" : character.CharacterClass.Name;
+//    //    string characterRace = character.CharacterRace == null ? "No Race" : character.CharacterRace.Name;
 
-    //    Console.WriteLine($"{character.CharacterName} - {character.CharacterRace.Name} - {characterClass}");
+//    //    Console.WriteLine($"{character.CharacterName} - {character.CharacterRace.Name} - {characterClass}");
 
-    //    foreach (var item in _dungeonCharacterInteractor.GetCharacterItems(character.Relationships))
-    //    {
-    //        Console.WriteLine(item.Name);
-    //    }
+//    //    foreach (var item in _dungeonCharacterInteractor.GetCharacterItems(character.Relationships))
+//    //    {
+//    //        Console.WriteLine(item.Name);
+//    //    }
 
-}
-DisplayAllItems();
+//}
+//DisplayAllItems();
 Console.ReadKey();
 //DisplayItemInformation(1);
 //DisplayItemInformation(10);

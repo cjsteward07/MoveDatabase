@@ -40,15 +40,15 @@ namespace MovieDatabaseRepository
                 db.SaveChanges();
                 return true;
                 }
-
                 return false;
             }
         }
+
         public List<Movie> GetMovieGenre(string userGenre)
         {
             using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
             {
-                return db.Movies.Where(x => x.Genre == userGenre).ToList();
+                return db.Movies.Where(x => x.Genre.ToLower() == userGenre).ToList();
             }
         }
 
@@ -56,7 +56,7 @@ namespace MovieDatabaseRepository
         {
             using (ApplicationDBContext db = new ApplicationDBContext(_optionsBuilder.Options))
             {
-                return db.Movies.Where(x => x.Title == userTitle).ToList();
+                return db.Movies.Where(x => x.Title.ToLower() == userTitle).ToList();
             }
         }
     }

@@ -7,16 +7,10 @@ namespace MovieDatabaseDomain
     public class MovieInteractor
     {
         private MovieRepository _repo;
-
         public MovieInteractor()
         {
             _repo = new MovieRepository();
         }
-
-        //public List<Movie> GetAllMovies()
-        //{
-        //    return _repo.GetAllMovies();
-        //}
         public bool AddNewItem(Movie itemToAdd)
         {
             //TODO: check if runtime is empty as well
@@ -34,12 +28,5 @@ namespace MovieDatabaseDomain
         {
             return _repo.GetMovieTitle(userTitle);
         }
-
-        //public bool GetMovieTitleExists(string userTitle, out Movie movieReturn)
-        //{
-        //    Movie movie = _repo.GetMovieTitle(userTitle);
-        //    movieReturn = movie;
-        //    return movieReturn != null;
-        //}
     }
 }

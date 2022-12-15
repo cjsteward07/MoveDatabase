@@ -5,6 +5,11 @@ using Microsoft.Extensions.Options;
 using MovieDatabaseConsole;
 
 MovieInteractor _movieInteractor = new MovieInteractor();
+MenuClass.MainMenu(_movieInteractor);
+
+
+
+//Uncomment to initialize data
 
 //void LoadStartUpData()
 //{
@@ -44,10 +49,6 @@ MovieInteractor _movieInteractor = new MovieInteractor();
 //}
 
 //LoadStartUpData();
-Console.WriteLine("Hello");
-
-
-MenuClass.MainMenu();
 
 
 
@@ -56,13 +57,6 @@ MenuClass.MainMenu();
 
 
 
-
-
-
-
-
-
-Console.ReadKey();
 
 
 

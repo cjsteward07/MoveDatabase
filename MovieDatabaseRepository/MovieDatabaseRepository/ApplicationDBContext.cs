@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System.IO;
 using MovieDatabaseDTO;
-using System.Collections.Generic;
 
 namespace MovieDatabaseRepository
 {

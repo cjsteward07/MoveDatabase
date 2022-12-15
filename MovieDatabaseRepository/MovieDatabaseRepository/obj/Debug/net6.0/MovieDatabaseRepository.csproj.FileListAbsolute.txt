@@ -1,0 +1,17 @@
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.csproj.AssemblyReference.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.AssemblyInfoInputs.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.AssemblyInfo.cs
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.csproj.CoreCompileInputs.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\bin\Debug\net6.0\MovieDatabaseRepository.deps.json
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\bin\Debug\net6.0\MovieDatabaseRepository.runtimeconfig.json
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\bin\Debug\net6.0\MovieDatabaseRepository.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\bin\Debug\net6.0\MovieDatabaseRepository.pdb
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\bin\Debug\net6.0\MovieDatabaseDTO.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\bin\Debug\net6.0\MovieDatabaseDTO.pdb
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.csproj.CopyComplete
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\refint\MovieDatabaseRepository.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.pdb
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\MovieDatabaseRepository.genruntimeconfig.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseRepository\obj\Debug\net6.0\ref\MovieDatabaseRepository.dll

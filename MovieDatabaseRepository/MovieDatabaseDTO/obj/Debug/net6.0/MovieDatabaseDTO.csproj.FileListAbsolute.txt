@@ -1,0 +1,12 @@
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\bin\Debug\net6.0\MovieDatabaseDTO.deps.json
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\bin\Debug\net6.0\MovieDatabaseDTO.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\bin\Debug\net6.0\MovieDatabaseDTO.pdb
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.csproj.AssemblyReference.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.AssemblyInfoInputs.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.AssemblyInfo.cs
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.csproj.CoreCompileInputs.cache
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\refint\MovieDatabaseDTO.dll
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\MovieDatabaseDTO.pdb
+C:\Users\Colin\Documents\git\MovieDatabase\MovieDatabaseRepository\MovieDatabaseDTO\obj\Debug\net6.0\ref\MovieDatabaseDTO.dll
